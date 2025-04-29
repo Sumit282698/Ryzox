@@ -4,9 +4,37 @@
 }
 .main{
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%, url(2.png));
+    background-image: url('2.png');
     background-position: center;
     background-size: cover;
-    height: 75vh;
+    height: 100vh;
     font-family: sans-serif;
 }
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+}
+
